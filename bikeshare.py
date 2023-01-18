@@ -6,7 +6,7 @@ import numpy as np
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york': 'new_york_city.csv',
              'washington': 'washington.csv'}
-
+#End input validation function
 
 def get_filters():
     """
@@ -17,6 +17,8 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
 
+    """Filter and load the data based of user input"""
+    
     print('Hello! Let\'s explore some US bikeshare data!')
     
 
@@ -56,13 +58,11 @@ def load_data(city, month, day):
         df - pandas DataFrame containing city data filtered by month and day
     """
 
- 
     df = pd.read_csv(CITY_DATA[city])
 
    
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
-  
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.day_name()
 
@@ -71,10 +71,7 @@ def load_data(city, month, day):
      
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         month = months.index(month) + 1
-
-    
         df = df[df['month'] == month]
-
 
     if day != 'all':
  
