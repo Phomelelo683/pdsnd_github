@@ -4,10 +4,10 @@
 18 January 2023
 
 ### Project Title
-Post your work on GutHub
+Post your work on GitHub
 
 ### Description
-Explore data extractions from bikeshare system for three cities in the united states -chicago, new york city and washingthon
+Explore data extractions from bikeshare system for three cities in the united states -chicago, new york city and Washington
 
 ### Files used
 Bikeshare python file
