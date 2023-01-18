@@ -4,16 +4,16 @@
 18 January 2023
 
 ### Project Title
-Post your work on GitHub
+Post-your-work on GitHub
 
 ### Description
-Explore data extractions from bikeshare system for three cities in the united states -chicago, new york city and Washington
+Explore data extractions from bikeshare system for three cities in the United States -Chicago, New York City and Washington
 
 ### Files used
-Bikeshare python file
+Bikeshare python file,
 Git Command documentation
 
 ### Credits
-Udacity project reviewers
+Udacity project reviewers,
 https://github.com/udacity/pdsnd_github
 
