@@ -17,6 +17,8 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
 
+    """Filter and load the data based of user input"""
+    
     print('Hello! Let\'s explore some US bikeshare data!')
     
 
